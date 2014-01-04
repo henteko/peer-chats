@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Peers</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" media="all">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="http://cdn.peerjs.com/0.3/peer.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>
+        <small>My ID: </small>
+        <span id="myId"></span>
+      </h1>
+      <div class="connects">
+        <input id="connect"></input>
+        <span id="connectButton" class="btn btn-primary">Connect</span>
+      </div>
+      <div class="connected"></div>
+      <div class="messages">
+        <input id="message"></input>
+        <span id="sendMessage" class="btn btn-primary">Send</span>
+        <div id="messageData"></div>
+      </div>
+    </div>
+  </body>
+</html>
