@@ -8,6 +8,6 @@ $ bundle install
 
 ## run
 ```
-$ rackup
-$ open http://localhost:9292
+$ unicorn -c unicorn.conf -D
+$ open http://localhost:4567
 ```
