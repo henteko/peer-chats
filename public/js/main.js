@@ -15,9 +15,11 @@ $(function() {
       var text = $('#message').val();
       $('#message').val('');
       if(text === '') return;
-      conn.send({
-        message: text,
-        ids: [myId]
+      $.each(peer.connections, function(_id, _conn) {
+        _conn[0].send({
+          message: text,
+          ids: [myId]
+        });
       });
       inputMessage(myId, text);
     });

@@ -1,0 +1,35 @@
+I, [2014-01-23T18:18:28.168164 #23839]  INFO -- : Refreshing Gem list
+I, [2014-01-23T18:18:28.408975 #23839]  INFO -- : listening on addr=/tmp/unicorn.sock fd=7
+I, [2014-01-23T18:18:28.409134 #23839]  INFO -- : worker=0 spawning...
+I, [2014-01-23T18:18:28.410640 #23839]  INFO -- : worker=1 spawning...
+I, [2014-01-23T18:18:28.411497 #23839]  INFO -- : master process ready
+I, [2014-01-23T18:18:28.412261 #23865]  INFO -- : worker=0 spawned pid=23865
+I, [2014-01-23T18:18:28.412889 #23866]  INFO -- : worker=1 spawned pid=23866
+I, [2014-01-23T18:18:28.416064 #23865]  INFO -- : worker=0 ready
+I, [2014-01-23T18:18:28.416064 #23866]  INFO -- : worker=1 ready
+I, [2014-01-23T18:18:46.147212 #23839]  INFO -- : reaped #<Process::Status: pid 23866 exit 0> worker=1
+I, [2014-01-23T18:18:46.147749 #23839]  INFO -- : reaped #<Process::Status: pid 23865 exit 0> worker=0
+I, [2014-01-23T18:18:46.147909 #23839]  INFO -- : master complete
+I, [2014-01-23T18:18:50.233132 #23874]  INFO -- : Refreshing Gem list
+I, [2014-01-23T18:18:50.455628 #23874]  INFO -- : unlinking existing socket=/tmp/unicorn.sock
+I, [2014-01-23T18:18:50.455926 #23874]  INFO -- : listening on addr=/tmp/unicorn.sock fd=7
+I, [2014-01-23T18:18:50.456923 #23874]  INFO -- : listening on addr=0.0.0.0:3000 fd=8
+I, [2014-01-23T18:18:50.457067 #23874]  INFO -- : worker=0 spawning...
+I, [2014-01-23T18:18:50.458204 #23874]  INFO -- : worker=1 spawning...
+I, [2014-01-23T18:18:50.458816 #23874]  INFO -- : master process ready
+I, [2014-01-23T18:18:50.460224 #23900]  INFO -- : worker=0 spawned pid=23900
+I, [2014-01-23T18:18:50.460535 #23901]  INFO -- : worker=1 spawned pid=23901
+I, [2014-01-23T18:18:50.464425 #23901]  INFO -- : worker=1 ready
+I, [2014-01-23T18:18:50.464425 #23900]  INFO -- : worker=0 ready
+127.0.0.1 - - [23/Jan/2014 18:18:55] "GET / HTTP/1.1" 200 920 0.0540
+127.0.0.1 - - [23/Jan/2014 18:18:55] "GET /js/bootstrap.min.js HTTP/1.1" 200 28631 0.0039
+127.0.0.1 - - [23/Jan/2014 18:18:55] "GET /js/main.js HTTP/1.1" 200 1605 0.0025
+127.0.0.1 - - [23/Jan/2014 18:18:55] "GET /css/bootstrap.min.css HTTP/1.1" 200 106006 0.0657
+127.0.0.1 - - [23/Jan/2014 18:18:56] "GET /favicon.ico HTTP/1.1" 404 448 0.0033
+127.0.0.1 - - [23/Jan/2014 18:19:01] "GET / HTTP/1.1" 200 920 0.0030
+127.0.0.1 - - [23/Jan/2014 18:19:03] "GET / HTTP/1.1" 200 920 0.0017
+127.0.0.1 - - [23/Jan/2014 18:19:06] "GET / HTTP/1.1" 200 920 0.0028
+127.0.0.1 - - [23/Jan/2014 18:19:06] "GET /js/main.js HTTP/1.1" 304 - 0.0021
+I, [2014-01-23T18:20:13.913737 #23874]  INFO -- : reaped #<Process::Status: pid 23901 exit 0> worker=1
+I, [2014-01-23T18:20:13.913843 #23874]  INFO -- : reaped #<Process::Status: pid 23900 exit 0> worker=0
+I, [2014-01-23T18:20:13.914578 #23874]  INFO -- : master complete
